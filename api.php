@@ -26,10 +26,11 @@ $dates = $_GET['date'];
 $dates == "" and $dates = date('Y-m-d',time());
 
 $lunar  = new Lunar();
-$looper = 0;
+
 $return = [];
 foreach(explode(',',$dates) as $key => $date)
 {
+    $looper = 0;
 	//不正确的日期格式
 	if(($time = strtotime($date)) === FALSE)
 	{
@@ -102,7 +103,7 @@ foreach(explode(',',$dates) as $key => $date)
 				$return[$key]['info'] = '节假日';
 			}
 			$looper += 1;
-			$return[$key]['describe'] = $SpecialHolidaylist;
+			$return[$key]['describe'][$looper] = $SpecialHolidaylist;
 		}
 	}
 	//判断是否为阴历节假日
@@ -129,7 +130,7 @@ foreach(explode(',',$dates) as $key => $date)
 				$return[$key]['info'] = '节假日';
 			}
 			$looper += 1;
-			$return[$key]['describe'] = $LunarCalendarHolidayList;
+			$return[$key]['describe'][$looper] = $LunarCalendarHolidayList;
 		}
 	}
 	//不是节假日,则判断是否为非工作日(周六周日)
@@ -142,7 +143,8 @@ foreach(explode(',',$dates) as $key => $date)
 			//双休日
 			$return[$key]['code'] = 2;
 			$return[$key]['info'] = '双休日';
-			$return[$key]['describe'] = ['Name'=>'周末'];
+			$looper += 1;
+			$return[$key]['describe'][$looper] = ['Name'=>'周末'];
 		}
 	}
 }
