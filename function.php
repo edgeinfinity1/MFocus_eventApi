@@ -26,7 +26,7 @@ function weekNumber($timestamp = 0)
 function GetDateByWeekNumberOfMonth($time,$day,$week)
 {
 	$time = strtotime(date('Y-m-01',$time));
-	return $time + 86400 * ($week - date('w',$time)) + 86400 * (7 * ($day - 1));
+	return $time + 86400 * ((int)$week - (int)date('w',$time)) + 86400 * (7 * ((int)$day - 1));
 }
 /**
 * 获取时间在本月的第m个星期n

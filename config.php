@@ -20,7 +20,7 @@ const Work = 0;
 $GregorianCalendarHoliday = array(
 	array(
 		"Time"			=> "1月1日",
-		"Name"			=> "中国元旦",
+		"Name"			=> "元旦",
 		"EnglishName"	=> "New Year's Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
@@ -42,42 +42,42 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "3月3日",
 		"Name"			=> "全国爱耳日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "3月5日",
 		"Name"			=> "青年志愿者服务日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "3月8日",
-		"Name"			=> "国际妇女节",
-		"EnglishName"	=> "International Women' Day",
+		"Name"			=> "妇女节",
+		"EnglishName"	=> "Women's Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "3月9日",
 		"Name"			=> "保护母亲河日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "3月12日",
-		"Name"			=> "中国植树节",
-		"EnglishName"	=> "China Arbor Day",
+		"Name"			=> "植树节",
+		"EnglishName"	=> "Arbor Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -90,14 +90,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "3月14日",
 		"Name"			=> "国际警察日",
 		"EnglishName"	=> "International Policemen' Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "3月15日",
 		"Name"			=> "世界消费者权益日",
@@ -138,14 +138,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "3月24日",
 		"Name"			=> "世界防治结核病日",
 		"EnglishName"	=> "World Tuberculosis Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "4月1日",
 		"Name"			=> "愚人节",
@@ -157,7 +157,7 @@ $GregorianCalendarHoliday = array(
 	array(
 		"Time"			=> "4月5日",
 		"Name"			=> "清明节",
-		"EnglishName"	=> "Tomb",
+		"EnglishName"	=> "Chinese Tomb Sweeping Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -178,33 +178,33 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "4月26日",
 		"Name"			=> "世界知识产权日",
 		"EnglishName"	=> "World Intellectual Property Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "5月1日",
-		"Name"			=> "国际劳动节",
-		"EnglishName"	=> "International Labour Day",
+		"Name"			=> "劳动节",
+		"EnglishName"	=> "Labour Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "5月3日",
 		"Name"			=> "世界哮喘日",
 		"EnglishName"	=> "World Asthma Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "5月4日",
-		"Name"			=> "中国青年节",
+		"Name"			=> "青年节",
 		"EnglishName"	=> "Chinese Youth Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
@@ -213,19 +213,19 @@ $GregorianCalendarHoliday = array(
 	array(
 		"Time"			=> "5月8日",
 		"Name"			=> "世界红十字日",
-		"EnglishName"	=> "World Red",
+		"EnglishName"	=> "World Red Cross Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "5月12日",
 		"Name"			=> "国际护士节",
 		"EnglishName"	=> "International Nurse Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "5月15日",
 		"Name"			=> "国际家庭日",
@@ -242,14 +242,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "5月20日",
 		"Name"			=> "全国学生营养日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "5月23日",
 		"Name"			=> "国际牛奶日",
@@ -261,15 +261,15 @@ $GregorianCalendarHoliday = array(
 	array(
 		"Time"			=> "5月31日",
 		"Name"			=> "世界无烟日",
-		"EnglishName"	=> "World No",
+		"EnglishName"	=> "World No Smoking Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
 	array(
 		"Time"			=> "6月1日",
-		"Name"			=> "国际儿童节",
-		"EnglishName"	=> "International Children's Day",
+		"Name"			=> "儿童节",
+		"EnglishName"	=> "Children's Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -282,14 +282,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "6月6日",
 		"Name"			=> "全国爱眼日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "6月17日",
 		"Name"			=> "世界防治荒漠化和干旱日",
@@ -306,30 +306,30 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "6月25日",
 		"Name"			=> "全国土地日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "6月26日",
 		"Name"			=> "国际禁毒日",
 		"EnglishName"	=> "International Day Against Drug Abuse and Illicit Trafficking",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "7月1日",
 		"Name"			=> "建党节",
 		"EnglishName"	=> "Anniversary of the Founding of the Chinese Communist Party",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "7月1日",
 		"Name"			=> "国际建筑日",
@@ -338,14 +338,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "7月7日",
 		"Name"			=> "中国人民抗日战争纪念日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "7月11日",
 		"Name"			=> "世界人口日",
@@ -354,14 +354,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "8月1日",
 		"Name"			=> "建军节",
 		"EnglishName"	=> "Army Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "8月12日",
 		"Name"			=> "国际青年节",
@@ -370,30 +370,30 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "9月8日",
 		"Name"			=> "国际扫盲日",
 		"EnglishName"	=> "International Anti",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "9月10日",
-		"Name"			=> "中国教师节",
-		"EnglishName"	=> "Teacher's Day",
+		"Name"			=> "教师节",
+		"EnglishName"	=> "Chinese Teacher's Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "9月16日",
 		"Name"			=> "中国脑健康日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "9月16日",
 		"Name"			=> "国际臭氧层保护日",
@@ -402,18 +402,18 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "9月20日",
 		"Name"			=> "全国爱牙日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "9月21日",
 		"Name"			=> "世界停火日",
-		"EnglishName"	=> "World Cease",
+		"EnglishName"	=> "World Ceasefire Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -429,7 +429,7 @@ $GregorianCalendarHoliday = array(
 	array(
 		"Time"			=> "10月1日",
 		"Name"			=> "国庆节",
-		"EnglishName"	=> "National Day",
+		"EnglishName"	=> "Chinese National Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 6,
@@ -442,14 +442,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "10月1日",
 		"Name"			=> "国际老年人日",
 		"EnglishName"	=> "International Day of Older Persons",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "10月4日",
 		"Name"			=> "世界动物日",
@@ -466,14 +466,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "10月8日",
 		"Name"			=> "全国高血压日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "10月9日",
 		"Name"			=> "世界邮政日",
@@ -506,14 +506,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "10月15日",
 		"Name"			=> "世界农村妇女日",
 		"EnglishName"	=> "World Rural Women's Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "10月16日",
 		"Name"			=> "世界粮食日",
@@ -546,14 +546,14 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "10月28日",
 		"Name"			=> "中国男性健康日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "10月29日",
 		"Name"			=> "国际生物多样性日",
@@ -570,22 +570,22 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "11月8日",
 		"Name"			=> "中国记者节",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "11月9日",
 		"Name"			=> "消防宣传日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "11月14日",
 		"Name"			=> "世界糖尿病日",
@@ -594,30 +594,30 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "11月17日",
 		"Name"			=> "国际大学生节",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "11月25日",
 		"Name"			=> "国际消除对妇女的暴力日",
 		"EnglishName"	=> "International Day For the elimination of Violence against Women",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "12月1日",
 		"Name"			=> "世界爱滋病日",
 		"EnglishName"	=> "World AIDS Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "12月3日",
 		"Name"			=> "世界残疾人日",
@@ -626,18 +626,26 @@ $GregorianCalendarHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "12月4日",
 		"Name"			=> "全国法制宣传日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "12月9日",
 		"Name"			=> "世界足球日",
 		"EnglishName"	=> "World Football Day",
+		"IsNotWork"		=> Work,
+		"Start"			=> 0,
+		"End"			=> 0,
+	),
+	array(
+		"Time"			=> "12月24日",
+		"Name"			=> "平安夜",
+		"EnglishName"	=> "Christmas Eve",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -661,22 +669,22 @@ $GregorianCalendarHoliday = array(
 );
 //特殊阳历
 $SpecialHoliday = array(
-	array(
+/*	array(
 		"Time"			=> "1月最后一个星期日",
 		"Name"			=> "国际麻风节",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
-	array(
+	),*/
+/*	array(
 		"Time"			=> "3月最后一个完整周的星期一",
 		"Name"			=> "中小学生安全教育日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "5月第二个星期日",
 		"Name"			=> "母亲节",
@@ -685,14 +693,14 @@ $SpecialHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "5月第三个星期日",
 		"Name"			=> "全国助残日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "6月第三个星期日",
 		"Name"			=> "父亲节",
@@ -709,14 +717,14 @@ $SpecialHoliday = array(
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "9月第三个星期六",
 		"Name"			=> "全国国防教育日",
 		"EnglishName"	=> "",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "9月第四个星期日",
 		"Name"			=> "国际聋人节",
@@ -736,7 +744,7 @@ $SpecialHoliday = array(
 	array(
 		"Time"			=> "10月第二个星斯一",
 		"Name"			=> "加拿大感恩节",
-		"EnglishName"	=> "Thanksgiving Day",
+		"EnglishName"	=> "Canadian Thanksgiving Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -759,7 +767,7 @@ $SpecialHoliday = array(
 	),
 	array(
 		"Time"			=> "11月最后一个星期四",
-		"Name"			=> "美国感恩节",
+		"Name"			=> "感恩节",
 		"EnglishName"	=> "Thanksgiving Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
@@ -771,7 +779,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "正月初一",
 		"Name"			=> "春节",
-		"EnglishName"	=> "the Spring Festival",
+		"EnglishName"	=> "Chinese Spring Festival",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 6,
@@ -779,7 +787,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "正月十五",
 		"Name"			=> "元宵节",
-		"EnglishName"	=> "Lantern Festival",
+		"EnglishName"	=> "Chinese Lantern Festival",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -787,15 +795,15 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "五月初五",
 		"Name"			=> "端午节",
-		"EnglishName"	=> "the Dragon-Boat Festival",
+		"EnglishName"	=> "Chinese Dragon-Boat Festival",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
 	array(
 		"Time"			=> "七月初七",
-		"Name"			=> "乞巧节",
-		"EnglishName"	=> "Double-Seventh Day",
+		"Name"			=> "七夕节",
+		"EnglishName"	=> "Chinese Valentine's Day",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -803,7 +811,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "八月十五",
 		"Name"			=> "中秋节",
-		"EnglishName"	=> "the Mid-Autumn Festival",
+		"EnglishName"	=> "Chinese Mid-Autumn Festival",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -811,7 +819,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "九月初九",
 		"Name"			=> "重阳节",
-		"EnglishName"	=> "the Double Ninth Festival",
+		"EnglishName"	=> "Chinese Double Ninth Festival",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -819,7 +827,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "腊月初八",
 		"Name"			=> "腊八节",
-		"EnglishName"	=> "the laba Rice Porridge Festival",
+		"EnglishName"	=> "Chinese laba Rice Porridge Festival",
 		"IsNotWork"		=> Work,
 		"Start"			=> 0,
 		"End"			=> 0,
@@ -827,7 +835,7 @@ $LunarCalendarHoliday = array(
 	array(
 		"Time"			=> "十二月三十",
 		"Name"			=> "除夕",
-		"EnglishName"	=> "New Year's Eve",
+		"EnglishName"	=> "Chinese New Year's Eve",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
