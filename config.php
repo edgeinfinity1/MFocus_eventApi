@@ -432,7 +432,15 @@ $GregorianCalendarHoliday = array(
 		"EnglishName"	=> "Chinese National Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
-		"End"			=> 6,
+		"End"			=> 0,
+	),
+	array(
+		"Time"			=> "10月2日",
+		"Name"			=> "国庆假期",
+		"EnglishName"	=> "Chinese National Day",
+		"IsNotWork"		=> NotWork,
+		"Start"			=> 0,
+		"End"			=> 5,
 	),
 	array(
 		"Time"			=> "10月1日",
@@ -782,7 +790,15 @@ $LunarCalendarHoliday = array(
 		"EnglishName"	=> "Chinese Spring Festival",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
-		"End"			=> 6,
+		"End"			=> 0,
+	),
+	array(
+		"Time"			=> "正月初二",
+		"Name"			=> "春节假期",
+		"EnglishName"	=> "Chinese Spring Festival",
+		"IsNotWork"		=> NotWork,
+		"Start"			=> 0,
+		"End"			=> 5,
 	),
 	array(
 		"Time"			=> "正月十五",
