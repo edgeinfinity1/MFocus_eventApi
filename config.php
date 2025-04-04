@@ -38,7 +38,7 @@ $GregorianCalendarHoliday = array(
 		"Time"			=> "2月14日",
 		"Name"			=> "情人节",
 		"EnglishName"	=> "Valentine's Day",
-		"IsNotWork"		=> Work,
+		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
@@ -150,18 +150,18 @@ $GregorianCalendarHoliday = array(
 		"Time"			=> "4月1日",
 		"Name"			=> "愚人节",
 		"EnglishName"	=> "April Fools' Day",
-		"IsNotWork"		=> Work,
+		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
-	array(
+/*	array(
 		"Time"			=> "4月5日",
 		"Name"			=> "清明节",
 		"EnglishName"	=> "Chinese Tomb Sweeping Day",
 		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
-	),
+	),*/
 	array(
 		"Time"			=> "4月7日",
 		"Name"			=> "世界卫生日",
@@ -574,7 +574,7 @@ $GregorianCalendarHoliday = array(
 		"Time"			=> "10月31日",
 		"Name"			=> "万圣节",
 		"EnglishName"	=> "Halloween",
-		"IsNotWork"		=> Work,
+		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
@@ -654,7 +654,7 @@ $GregorianCalendarHoliday = array(
 		"Time"			=> "12月24日",
 		"Name"			=> "平安夜",
 		"EnglishName"	=> "Christmas Eve",
-		"IsNotWork"		=> Work,
+		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
@@ -662,7 +662,7 @@ $GregorianCalendarHoliday = array(
 		"Time"			=> "12月25日",
 		"Name"			=> "圣诞节",
 		"EnglishName"	=> "Christmas Day",
-		"IsNotWork"		=> Work,
+		"IsNotWork"		=> NotWork,
 		"Start"			=> 0,
 		"End"			=> 0,
 	),
@@ -849,7 +849,7 @@ $LunarCalendarHoliday = array(
 		"End"			=> 0,
 	),
 	array(
-		"Time"			=> "十二月三十",
+		"Time"			=> "十二月廿九",
 		"Name"			=> "除夕",
 		"EnglishName"	=> "Chinese New Year's Eve",
 		"IsNotWork"		=> NotWork,
@@ -857,3 +857,24 @@ $LunarCalendarHoliday = array(
 		"End"			=> 0,
 	),
 );
+//需要特别计算的节日
+function ExtraSpecialHoliday() {
+    global $GregorianCalendarHoliday;
+    function getQingmingDate($year) {
+        $constant = ($year >= 2001) ? 4.81 : 5.59;
+        $day = floor($year * 0.2422 + $constant) - floor($year / 4 - $year / 100 + $year / 400);
+        $day = max(4, min(6, $day));
+        return $day;
+    }
+    $qingmingDate = getQingmingDate(date('Y'));
+	$qingMing = array(
+    	"Time"			=> "4月{$qingmingDate}日",
+    	"Name"			=> "清明节",
+    	"EnglishName"	=> "Chinese Tomb Sweeping Day",
+    	"IsNotWork"		=> NotWork,
+    	"Start"			=> 0,
+    	"End"			=> 0,
+    );
+    array_push($GregorianCalendarHoliday, $qingMing);
+}
+ExtraSpecialHoliday();
